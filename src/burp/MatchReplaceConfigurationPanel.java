@@ -99,7 +99,7 @@ public class MatchReplaceConfigurationPanel extends JPanel {
 		add(panel, BorderLayout.NORTH);
 		
 		JLabel patternUrl = createLabelURL("https://docs.oracle.com/javase/8/docs/api/java/util/regex/Pattern.html");
-		JLabel gitHubUrl = createLabelURL("https://github.com/mmmds/BurpSessionHandlingMatchReplace");
+		JLabel gitHubUrl = createLabelURL("https://github.com/LogicalTrust/BurpSessionHandlingMatchReplace");
 		
 		JButton btn = new JButton("?");
 		btn.addActionListener((ev) -> {
