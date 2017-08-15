@@ -15,5 +15,8 @@
       </plugin>
     </plugins>
   </build>
-  <version>1.0.0</version>
+  <dependencies>
+  	 <dependency> <groupId>net.portswigger.burp.extender</groupId> <artifactId>burp-extender-api</artifactId> <version>1.7.22</version> </dependency> 
+  </dependencies>
+  <version>1.0.1</version>
 </project>
